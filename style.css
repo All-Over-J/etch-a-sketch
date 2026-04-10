@@ -1,5 +1,6 @@
 body{
     display:flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -19,4 +20,10 @@ body{
     background-color: pink;
     border: black solid 1px; 
     box-sizing: border-box;
+}
+
+.button{
+    margin: 16px;
+    padding: 4px;
+    font-size: large;
 }
