@@ -1,0 +1,22 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.gridContainer{
+    display: flex;
+    flex-wrap:wrap;
+    width: 500px;
+    height: 500px;
+    
+}
+
+.square{
+    flex-basis: 25%;
+    height: 25%;
+    background-color: pink;
+    border: black solid 1px; 
+    box-sizing: border-box;
+}
